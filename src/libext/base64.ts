@@ -44,7 +44,7 @@ const utf8_decode = (str: string) => {
     return t
 }
 
-const encode = (str: string) => {
+const b64encode = (str: string) => {
     let t = "";
     let n: number, r: number, i: number, s: number, o: number, u: number, a: number;
     let f = 0;
@@ -67,7 +67,7 @@ const encode = (str: string) => {
     return t;
 }
 
-const decode = (str: string) => {
+const b64decode = (str: string) => {
     let t = "";
     let n: number, r: number, i: number;
     let s: number, o: number, u: number, a: number;
@@ -94,8 +94,8 @@ const decode = (str: string) => {
 };
 
 const base64 = {
-    encode,
-    decode
+    b64encode,
+    b64decode
 }
 
 export default base64;

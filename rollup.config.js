@@ -1,4 +1,5 @@
 import multi from '@rollup/plugin-multi-entry';
+import commonjs from '@rollup/plugin-commonjs';
 export default {
     input: 'lib/**/*.js',
     output: {
@@ -6,5 +7,5 @@ export default {
         format: 'iife',
         name:'base64k'
     },
-    plugins: [multi()]
+    plugins: [commonjs(), multi()]
 };

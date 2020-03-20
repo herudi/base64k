@@ -17,12 +17,12 @@ export function genKey(len?: number, an?: string): string {
 
 export function encode(data: string, key?: string): string {
     if (key) {return func.encrypt(func.keyEncode(data, key));}
-    return base64.encode(data);
+    return base64.b64encode(data);
 }
 
-export function decode(data: any, key?: any): any {
+export function decode(data: string, key?: string): string {
     if (key) {return func.keyDecode(func.decrypt(data), key);}
-    return base64.decode(data);
+    return base64.b64decode(data);
 }
 
 export function dynEncode(data: string, key?: string): string {

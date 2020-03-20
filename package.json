@@ -1,6 +1,6 @@
 {
   "name": "base64k",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base64 encode decode with key in pure javascript/typescript.",
   "scripts": {
     "test": "ts-mocha -p tsconfig.test.json tests/**/*.test.ts",
@@ -9,6 +9,7 @@
   "author": "Herudi",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-multi-entry": "^3.0.0",
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",

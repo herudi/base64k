@@ -4,6 +4,20 @@ function keyCharAt(key:string, x: number): any {
     return key.charCodeAt(Math.floor(x % key.length));
 }
 
+function genKey(len?: number, an?: string): string {
+    if (!len) {len=10}
+    an = an && an.toLowerCase();
+    let str = "",
+        i = 0,
+        min = an == "a" ? 10 : 0,
+        max = an == "n" ? 10 : 62;
+    for (; i++ < len;) {
+      let r = Math.random() * (max - min) + min << 0;
+      str += String.fromCharCode(r += r > 9 ? r < 36 ? 55 : 61 : 48);
+    }
+    return str;
+}
+
 function keyEncode(data: string | any[], key: string): any {
     let res = []
     for (let i = 0; i < data.length; i++) {
@@ -84,6 +98,7 @@ function decrypt(data: any) {
 };
 
 export default {
+    genKey,
     keyEncode,
     keyDecode,
     encrypt,

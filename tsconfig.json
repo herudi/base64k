@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     "target": "ES5",
-    "module": "ES6",
+    "module": "CommonJS",
     "outDir": "lib",
     "declaration": true,
     "strict": true,
     "lib": [
-      "ES6",
+      "ES5",
       "dom"
     ]
   },

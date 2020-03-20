@@ -1,5 +1,5 @@
 declare const base64: {
-    encode: (str: string) => string;
-    decode: (str: string) => string;
+    b64encode: (str: string) => string;
+    b64decode: (str: string) => string;
 };
 export default base64;
