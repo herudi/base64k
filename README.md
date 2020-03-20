@@ -47,15 +47,15 @@ var base64k = require("base64k");
 
 2. Browser support
 
-```JavaScript
+```Html
 
-//from download
+<!-- from download -->
 <script type="text/javascript" src="path/to/dist/base64k.min.js"></script>
 
-//from jsdelivr
+<!-- from jsdelivr -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/base64k@1.0.2/dist/base64k.min.js"></script>
 
-//from unpkg
+<!-- from unpkg -->
 <script type="text/javascript" src="https://unpkg.com/base64k@1.0.2/dist/base64k.min.js"></script>
 
 ```
