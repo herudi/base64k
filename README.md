@@ -33,7 +33,7 @@ $ yarn add base64k
 
 ## Usage
 
-1. initialize base64k
+1. Initialize base64k
 
 ```JavaScript
 
@@ -43,13 +43,25 @@ import base64k from "base64k";
 //require
 var base64k = require("base64k");
 
-//browser
+```
+
+2. Browser support
+
+```JavaScript
+
+//from download
 <script type="text/javascript" src="path/to/dist/base64k.min.js"></script>
+
+//from jsdelivr
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/base64k@1.0.2/dist/base64k.min.js"></script>
+
+//from unpkg
+<script type="text/javascript" src="https://unpkg.com/base64k@1.0.2/dist/base64k.min.js"></script>
 
 ```
 
 
-2. Encode and decode with key.
+3. Encode and decode with key.
 
 ```JavaScript
 ...
@@ -69,7 +81,7 @@ console.log(decode);
 
 ```
 
-3. Dynamic encode and decode (generate random encode with the same string after decode.)
+4. Dynamic encode and decode (generate random encode with the same string after decode.)
 
 ```JavaScript
 ...
@@ -94,7 +106,7 @@ console.log(dyn_encode_3, " => ", dyn_decode_3);
 ...
 ```
 
-4. Normal encode and decode base64 (without key).
+5. Normal encode and decode base64 (without key).
 
 ```JavaScript
 ...
@@ -112,7 +124,7 @@ console.log(decode);
 ...
 ```
 
-5. Generate random string key (bonus).
+6. Generate random string key (bonus).
 
 ```JavaScript
 ...
