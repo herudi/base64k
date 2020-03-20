@@ -1,7 +1,7 @@
 {
   "name": "base64k",
   "version": "1.0.0",
-  "description": "Pure javascript base64 encode decode with key.",
+  "description": "Base64 encode decode with key in pure javascript/typescript.",
   "scripts": {
     "test": "ts-mocha -p tsconfig.test.json tests/**/*.test.ts",
     "build": "tsc -p tsconfig.json && rollup -c && uglifyjs dist/base64k.js -m > dist/base64k.min.js"
@@ -33,6 +33,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/herudi/base64k.git"
+    "url": "git+https://github.com/herudi/base64k.git"
   }
 }
