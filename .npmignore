@@ -1,0 +1,9 @@
+# .npmignore
+/node_modules
+/tests
+/src
+package-lock.json
+rollup.config.js
+tsconfig.json
+tsconfig.test.json
+.travis.yml
