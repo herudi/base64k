@@ -1,4 +1,4 @@
-# base64k
+# Base64k
 
 [![npm version](https://img.shields.io/badge/npm-0.0.4-blue.svg)](https://www.npmjs.com/package/base64k) 
 [![build status](https://api.travis-ci.com/herudi/base64k.svg?branch=master)](https://travis-ci.com/github/herudi/base64k)
