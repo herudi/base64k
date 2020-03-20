@@ -134,6 +134,27 @@ const test4 = base64k.genKey(20, "n");
 ...
 ```
 
+## From Source
+
+Base64k is available for further development. made with typescript.
+
+```JavaScript
+
+//clone project
+git clone https://github.com/herudi/base64k.git
+cd base64k
+
+//for build
+npm run build
+
+//for test
+npm run test
+
+```
+
+Contact me : herudi7@gmail.com
+
+
 ## License
 
 [MIT](LICENSE)
