@@ -1,13 +1,14 @@
 # Base64k
 
-[![npm version](https://img.shields.io/badge/npm-1.0.1-blue.svg)](https://www.npmjs.com/package/base64k) 
+[![npm version](https://img.shields.io/badge/npm-1.0.2-blue.svg)](https://www.npmjs.com/package/base64k) 
 [![build status](https://api.travis-ci.com/herudi/base64k.svg?branch=master)](https://travis-ci.com/github/herudi/base64k)
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 Base64 encode decode with key in pure javascript/typescript.
 
 ## Motivation
 
-Many developers want to encode and decode base64 with privacy and don't want others to know of the many online base64 encode decoded tools.
+Many developers want to encode and decode base64 with privacy and don't want others to know of the many online base64 encode decode tools.
 
 ## Features
 
