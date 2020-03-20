@@ -1,0 +1,1 @@
+export const BASE64_CHAR: string = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
